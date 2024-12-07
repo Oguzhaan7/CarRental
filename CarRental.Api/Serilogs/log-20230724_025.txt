@@ -1,0 +1,6 @@
+07/24/2023 13:55:56 +03:00 [Information] Handling LoginQuery 
+07/24/2023 13:55:56 +03:00 [Information] "Email" : "string" 
+07/24/2023 13:55:56 +03:00 [Information] "Password" : "string" 
+07/24/2023 13:55:57 +03:00 [Information] Handled Response`1 
+07/24/2023 13:55:57 +03:00 [Information] HTTP "POST" "/user/login" responded 404 in 10702.7141 ms 
+07/24/2023 14:00:02 +03:00 [Warning] Failed to determine the https port for redirect. 

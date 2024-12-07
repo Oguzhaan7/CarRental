@@ -1,0 +1,10 @@
+07/27/2023 16:42:59 +03:00 [Information] HTTP "POST" "/rental/createRental" responded 422 in 291.6410 ms 
+07/27/2023 16:43:19 +03:00 [Information] Handling GetCarByIdQuery 
+07/27/2023 16:43:19 +03:00 [Information] "Id" : 139e8101-1776-4de5-b446-98d6dbb0395d 
+07/27/2023 16:43:20 +03:00 [Information] HTTP "POST" "/car/getCarById" responded 404 in 1559.3468 ms 
+07/27/2023 16:46:28 +03:00 [Information] HTTP "POST" "/rental/createRental" responded 422 in 65.8758 ms 
+07/27/2023 16:46:46 +03:00 [Information] Handling GetCarByIdQuery 
+07/27/2023 16:50:56 +03:00 [Information] "Id" : 00000000-0000-0000-0000-000000000000 
+07/27/2023 16:50:56 +03:00 [Information] HTTP "POST" "/car/getCarById" responded 404 in 263761.6036 ms 
+07/27/2023 16:51:52 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 16:52:02 +03:00 [Error] The car could not be found 

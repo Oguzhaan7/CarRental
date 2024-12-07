@@ -1,0 +1,3 @@
+07/27/2023 16:14:27 +03:00 [Error] HTTP "POST" "/car/getCarById" responded 500 in 259.0828 ms 
+07/27/2023 16:18:48 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 16:18:49 +03:00 [Error] An unhandled exception has occurred while executing the request. 

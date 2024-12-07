@@ -1,0 +1,7 @@
+07/27/2023 16:18:49 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 243.7890 ms 
+07/27/2023 16:19:04 +03:00 [Information] Handling GetCarByIdQuery 
+07/27/2023 16:19:04 +03:00 [Information] "Id" : e50f2ec5-f802-4bfa-8f74-50dc73b477ea 
+07/27/2023 16:19:11 +03:00 [Information] Handled Response`1 
+07/27/2023 16:19:11 +03:00 [Information] HTTP "POST" "/car/getCarById" responded 200 in 7214.2427 ms 
+07/27/2023 16:37:29 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 16:37:29 +03:00 [Error] An unhandled exception has occurred while executing the request. 

@@ -1,0 +1,2 @@
+07/27/2023 14:23:47 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 279.4485 ms 
+07/27/2023 15:06:41 +03:00 [Warning] Failed to determine the https port for redirect. 

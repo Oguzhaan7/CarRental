@@ -1,0 +1,5 @@
+07/27/2023 15:45:33 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 242.6228 ms 
+07/27/2023 15:51:29 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 15:51:29 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 32.8586 ms 
+07/27/2023 15:51:29 +03:00 [Error] An unhandled exception has occurred while executing the request. 
+07/27/2023 15:52:01 +03:00 [Warning] Failed to determine the https port for redirect. 

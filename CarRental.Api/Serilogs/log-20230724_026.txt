@@ -1,0 +1,10 @@
+07/24/2023 14:00:03 +03:00 [Information] Handling CreateCarCommand 
+07/24/2023 14:00:03 +03:00 [Information] "Car" : CarRequest { Brand: "string", Model: "string", Year: "string", Plate: "string", DailyPrice: 0, IsAvailable: True, FuelType: Gasoline, TransmissionType: Manual, Color: White } 
+07/24/2023 14:00:04 +03:00 [Information] Handled Response`1 
+07/24/2023 14:00:04 +03:00 [Information] HTTP "POST" "/car/createCar" responded 200 in 1336.1120 ms 
+07/24/2023 14:00:17 +03:00 [Information] Handling CreateCarCommand 
+07/24/2023 14:00:20 +03:00 [Information] "Car" : CarRequest { Brand: "string", Model: "string", Year: "string", Plate: "string", DailyPrice: 0, IsAvailable: True, FuelType: Gasoline, TransmissionType: Manual, Color: White } 
+07/24/2023 14:00:23 +03:00 [Information] Handled Response`1 
+07/24/2023 14:00:23 +03:00 [Information] HTTP "POST" "/car/createCar" responded 200 in 6215.5100 ms 
+07/24/2023 14:00:42 +03:00 [Information] Handling LoginQuery 
+07/24/2023 14:03:02 +03:00 [Warning] Failed to determine the https port for redirect. 

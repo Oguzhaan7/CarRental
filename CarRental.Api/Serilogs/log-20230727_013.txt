@@ -1,0 +1,5 @@
+07/27/2023 16:40:24 +03:00 [Information] HTTP "POST" "/rental/createRental" responded 422 in 282.5553 ms 
+07/27/2023 16:41:27 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 16:41:28 +03:00 [Error] Validation failed: 
+ -- Rental.StartDate: Başlangıç tarihi küçük olmalı Severity: Error
+ -- Rental.StartDate: Başlangıç tarihi şimdiden büyük olmalı Severity: Error 

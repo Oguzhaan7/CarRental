@@ -1,0 +1,2 @@
+07/27/2023 13:49:11 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 14:23:47 +03:00 [Warning] Failed to determine the https port for redirect. 

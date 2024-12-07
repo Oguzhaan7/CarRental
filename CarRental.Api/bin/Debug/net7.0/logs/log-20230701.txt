@@ -1,0 +1,216 @@
+2023-07-01 15:26:14.491 +03:00 [INF] User profile is available. Using 'C:\Users\Oguzhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-01 15:26:14.630 +03:00 [INF] Now listening on: http://localhost:5000
+2023-07-01 15:26:14.631 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-01 15:26:14.631 +03:00 [INF] Hosting environment: Development
+2023-07-01 15:26:14.631 +03:00 [INF] Content root path: C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Api
+2023-07-01 15:26:15.080 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 15:26:15.350 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 271.5508ms
+2023-07-01 15:26:15.387 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 15:26:15.390 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 15:26:15.390 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.2865ms
+2023-07-01 15:26:15.414 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0509ms
+2023-07-01 15:26:15.492 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 15:26:15.586 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.4243ms
+2023-07-01 15:26:26.303 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 55
+2023-07-01 15:26:26.308 +03:00 [WRN] Failed to determine the https port for redirect.
+2023-07-01 15:26:26.354 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:26:26.356 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:26:26.372 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:26:27.490 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:26:27.619 +03:00 [INF] giriş yapıldı
+2023-07-01 15:26:27.625 +03:00 [INF] Executing OkObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 15:26:27.652 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 1277.3776ms
+2023-07-01 15:26:27.653 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:26:27.658 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 55 - 200 - application/json;+charset=utf-8 1355.2703ms
+2023-07-01 15:53:52.644 +03:00 [INF] User profile is available. Using 'C:\Users\Oguzhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-01 15:53:52.770 +03:00 [INF] Now listening on: http://localhost:5000
+2023-07-01 15:53:52.772 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-01 15:53:52.773 +03:00 [INF] Hosting environment: Development
+2023-07-01 15:53:52.774 +03:00 [INF] Content root path: C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Api
+2023-07-01 15:53:53.382 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 15:53:53.610 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 228.8858ms
+2023-07-01 15:53:53.660 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 15:53:53.663 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 15:53:53.665 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.7762ms
+2023-07-01 15:53:53.693 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.8595ms
+2023-07-01 15:53:53.827 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 15:53:53.963 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.7210ms
+2023-07-01 15:54:07.962 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 55
+2023-07-01 15:54:07.968 +03:00 [WRN] Failed to determine the https port for redirect.
+2023-07-01 15:54:08.018 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:54:08.020 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:54:08.038 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:54:09.214 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:54:09.355 +03:00 [INF] 01.07.2023 03:54:09 - oguzhan@gmail.com giriş yaptı
+2023-07-01 15:54:09.361 +03:00 [INF] Executing OkObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 15:54:09.391 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 1349.3202ms
+2023-07-01 15:54:09.393 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:54:09.400 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 55 - 200 - application/json;+charset=utf-8 1437.9170ms
+2023-07-01 15:54:50.610 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 15:54:50.630 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 18.5929ms
+2023-07-01 15:54:50.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 15:54:50.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 15:54:50.645 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 2.4188ms
+2023-07-01 15:54:50.654 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.0993ms
+2023-07-01 15:54:50.737 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 15:54:50.744 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8247ms
+2023-07-01 15:55:01.815 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 53
+2023-07-01 15:55:01.818 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:55:01.819 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:01.824 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:55:01.877 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:55:07.424 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 5598.1391ms
+2023-07-01 15:55:07.426 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:07.428 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CarRental.Api.Controllers.UserController.Login(LoginQuery query)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-01 15:55:07.476 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 53 - 500 - text/plain;+charset=utf-8 5661.3917ms
+2023-07-01 15:55:14.479 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 53
+2023-07-01 15:55:14.491 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:55:14.492 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:14.493 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:55:14.508 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:55:14.511 +03:00 [INF] 01.07.2023 03:55:14 -  hatalı giriş denemesi
+2023-07-01 15:55:14.512 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 15:55:14.514 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 19.7099ms
+2023-07-01 15:55:14.515 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:14.516 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 53 - 400 - application/json;+charset=utf-8 36.6021ms
+2023-07-01 15:55:14.827 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 15:55:14.839 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 11.9554ms
+2023-07-01 15:55:14.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 15:55:14.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 15:55:14.865 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.9936ms
+2023-07-01 15:55:14.871 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.0026ms
+2023-07-01 15:55:14.951 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 15:55:14.954 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.9130ms
+2023-07-01 15:55:20.454 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 47
+2023-07-01 15:55:20.455 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:55:20.456 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:20.459 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:55:20.464 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:55:20.467 +03:00 [INF] 01.07.2023 03:55:20 -  hatalı giriş denemesi
+2023-07-01 15:55:20.468 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 15:55:20.470 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 9.5614ms
+2023-07-01 15:55:20.471 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:20.472 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 47 - 400 - application/json;+charset=utf-8 18.0876ms
+2023-07-01 15:55:34.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 15:55:34.682 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 12.7964ms
+2023-07-01 15:55:34.697 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 15:55:34.697 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 15:55:34.699 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 2.1193ms
+2023-07-01 15:55:34.707 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.3181ms
+2023-07-01 15:55:34.787 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 15:55:34.790 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4884ms
+2023-07-01 15:55:37.436 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 47
+2023-07-01 15:55:37.437 +03:00 [INF] CORS policy execution successful.
+2023-07-01 15:55:37.438 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:37.442 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 15:55:37.447 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 15:55:37.450 +03:00 [INF] 01.07.2023 12:55:37 -  hatalı giriş denemesi
+2023-07-01 15:55:37.451 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 15:55:37.452 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 9.1459ms
+2023-07-01 15:55:37.454 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 15:55:37.455 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 47 - 400 - application/json;+charset=utf-8 18.8533ms
+2023-07-01 16:04:30.486 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 55
+2023-07-01 16:04:30.488 +03:00 [INF] CORS policy execution successful.
+2023-07-01 16:04:30.488 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:04:30.489 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 16:04:30.534 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 16:04:30.536 +03:00 [INF] 01.07.2023 01:04:30 - oguzhan@gmail.com giriş yaptı
+2023-07-01 16:04:30.537 +03:00 [INF] Executing OkObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 16:04:30.540 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 49.8102ms
+2023-07-01 16:04:30.541 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:04:30.542 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 55 - 200 - application/json;+charset=utf-8 56.4617ms
+2023-07-01 16:04:36.364 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 55
+2023-07-01 16:04:36.365 +03:00 [INF] CORS policy execution successful.
+2023-07-01 16:04:36.366 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:04:36.367 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 16:04:36.370 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 16:04:36.373 +03:00 [INF] 01.07.2023 01:04:36 - oguzhan@gmail.com giriş yaptı
+2023-07-01 16:04:36.374 +03:00 [INF] Executing OkObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 16:04:36.375 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 6.3681ms
+2023-07-01 16:04:36.376 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:04:36.377 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 55 - 200 - application/json;+charset=utf-8 12.6686ms
+2023-07-01 16:07:42.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-07-01 16:07:42.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 13.2312ms
+2023-07-01 16:07:42.217 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-07-01 16:07:42.218 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-07-01 16:07:42.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.3490ms
+2023-07-01 16:07:42.227 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.2329ms
+2023-07-01 16:07:42.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-07-01 16:07:42.363 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2217ms
+2023-07-01 16:07:46.605 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 47
+2023-07-01 16:07:46.606 +03:00 [INF] CORS policy execution successful.
+2023-07-01 16:07:46.607 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:07:46.610 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 16:07:46.616 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 16:07:46.618 +03:00 [INF] 01.07.2023 01:07:46 -  hatalı giriş denemesi
+2023-07-01 16:07:46.619 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 16:07:46.621 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 8.8762ms
+2023-07-01 16:07:46.622 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:07:46.622 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 47 - 400 - application/json;+charset=utf-8 17.7981ms
+2023-07-01 16:07:51.626 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/user/login application/json 47
+2023-07-01 16:07:51.628 +03:00 [INF] CORS policy execution successful.
+2023-07-01 16:07:51.629 +03:00 [INF] Executing endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:07:51.630 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarRental.Application.Authentication.Quieries.Login.LoginQuery) on controller CarRental.Api.Controllers.UserController (CarRental.Api).
+2023-07-01 16:07:51.634 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedDateTime", u."Email", u."FirstName", u."LastName", u."Password", u."PhoneNumber", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__request_Email_0
+LIMIT 1
+2023-07-01 16:07:51.637 +03:00 [INF] 01.07.2023 01:07:51 -  hatalı giriş denemesi
+2023-07-01 16:07:51.638 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'CarRental.Application.Common.Responses.Response`1[[CarRental.Application.Authentication.Common.AuthenticationResponse, CarRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-01 16:07:51.640 +03:00 [INF] Executed action CarRental.Api.Controllers.UserController.Login (CarRental.Api) in 8.2518ms
+2023-07-01 16:07:51.641 +03:00 [INF] Executed endpoint 'CarRental.Api.Controllers.UserController.Login (CarRental.Api)'
+2023-07-01 16:07:51.642 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/user/login application/json 47 - 400 - application/json;+charset=utf-8 16.3138ms

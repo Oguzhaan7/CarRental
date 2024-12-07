@@ -1,0 +1,2 @@
+07/24/2023 17:26:23 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 16431.5797 ms 
+07/24/2023 17:27:59 +03:00 [Error] HTTP "POST" "/rental/createRental" responded 500 in 70614.3248 ms 

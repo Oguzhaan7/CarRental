@@ -1,0 +1,17 @@
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Application.deps.json
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Application.dll
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Application.pdb
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Domain.dll
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Shared.dll
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Domain.pdb
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\bin\Debug\net7.0\CarRental.Shared.pdb
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.csproj.AssemblyReference.cache
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.AssemblyInfoInputs.cache
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.AssemblyInfo.cs
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.csproj.CoreCompileInputs.cache
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.csproj.CopyComplete
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.dll
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\refint\CarRental.Application.dll
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\CarRental.Application.pdb
+C:\Users\Oguzhan\Desktop\CSharp\CarRental\CarRental.Application\obj\Debug\net7.0\ref\CarRental.Application.dll

@@ -1,0 +1,12 @@
+07/27/2023 16:51:56 +03:00 [Information] Handling GetCarByIdQuery 
+07/27/2023 16:52:00 +03:00 [Information] "Id" : 139e8101-1776-4de5-b446-98d6dbb0395d 
+07/27/2023 16:52:02 +03:00 [Information] HTTP "GET" "/car/getCarById" responded 404 in 9207.1951 ms 
+07/27/2023 16:52:47 +03:00 [Information] Handling GetCarByIdQuery 
+07/27/2023 16:52:47 +03:00 [Information] "Id" : e50f2ec5-f802-4bfa-8f74-50dc73b477ea 
+07/27/2023 16:52:47 +03:00 [Information] Handled Response`1 
+07/27/2023 16:52:47 +03:00 [Information] HTTP "GET" "/car/getCarById" responded 200 in 180.3548 ms 
+07/27/2023 17:07:14 +03:00 [Warning] Failed to determine the https port for redirect. 
+07/27/2023 17:07:14 +03:00 [Error] Validation failed: 
+ -- Rental.StartDate: Başlangıç tarihi küçük olmalı Severity: Error
+ -- Rental.StartDate: Başlangıç tarihi şimdiden büyük olmalı Severity: Error 
+07/27/2023 17:08:33 +03:00 [Error] The car could not be found 

@@ -1,0 +1,4 @@
+07/24/2023 14:03:03 +03:00 [Information] Handling LoginQuery 
+07/24/2023 14:03:08 +03:00 [Information] "Email" : "string" 
+07/24/2023 14:03:34 +03:00 [Information] Handled Response`1 
+07/24/2023 14:36:11 +03:00 [Warning] Failed to determine the https port for redirect. 
